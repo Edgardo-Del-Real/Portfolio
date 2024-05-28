@@ -1,0 +1,48 @@
+body{
+    background-color: #282a36;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    margin-top: 20px;
+}
+.menu{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: right;
+    display: flex;
+    margin:10px;
+    list-style-type: none;
+}
+
+
+.menu li a{
+    margin-right: 65px;
+    text-decoration: none;
+    color: white;
+}
+
+.letraE{
+    color: #c5a2f6;
+}
+
+.logo-nombre h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    padding-top: 6px;
+}
+
+.logo-nombre{
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-nombre img{
+    height: 80px;
+    width: 80px;
+}
