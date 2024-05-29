@@ -3,6 +3,7 @@ body{
     margin: 0;
 }
 
+/* Inician las propiedades del header */
 header{
     display: flex;
     justify-content: space-between;
@@ -10,23 +11,25 @@ header{
     align-items: center;
     margin-top: 20px;
 }
+/* Finalizan las propiedades del header */
+
+/* Inician las propiedades del menu/nav */
 .menu{
     font-family:Arial, Helvetica, sans-serif;
-    text-align: right;
     display: flex;
     margin:10px;
-    list-style-type: none;
 }
-
-
-.menu li a{
+.menu a{
     margin-right: 65px;
     text-decoration: none;
     color: white;
+    transition:color 1s; 
 }
 
-.letraE{
+.letraE{   
     color: #c5a2f6;
+    font-size: 40px;
+    font-weight: lighter;
 }
 
 .logo-nombre h2{
@@ -46,3 +49,65 @@ header{
     height: 80px;
     width: 80px;
 }
+/* Finalizan las propiedades del menu/nav */
+
+/* Inician las propiedades del HOVER del menu/nav */
+.menu a:hover{
+    color: #c5a2f6;
+}
+
+.menu a::after{
+    content: "";
+    height: 2px;
+    width: 0;
+    background-color: #c5a2f6;
+    display: block;
+    transition: all 1s;
+}
+
+.menu a:hover::after{
+    width:100%;
+}
+/* Finalizan las propiedades del HOVER del menu/nav */
+
+/* Inician las propiedades del main */
+
+    /* propiedades del section hi */
+    .hi{
+        padding-top: 15px;
+        font-family:sans-serif;
+        width: 750px;
+        height: 300px;
+        transform: translate(48px,100px);
+        font-size: 300%;
+        text-align: start;
+    }
+
+    .hi h1{
+        color: #faf9ff;
+        margin: 0;
+    }
+    .hi span{
+        color: #ff79c6;
+    }
+
+    
+    .hi h6{
+        margin: 0;
+        width: 500px;
+        height: 40px;
+        font-size: 30%;
+        color:#646c91;
+
+    }
+    /* Finalizan las propiedades del section hi */
+
+/* Inician las propiedades del section botones */
+    .botones{
+        display: flex;
+        width: 500px;
+        height: 50px;
+    }
+
+
+
