@@ -73,6 +73,7 @@ header{
 /* Inician las propiedades del main */
 
     /* propiedades del section hi */
+    
     .hi{
         padding-top: 15px;
         font-family:sans-serif;
@@ -105,9 +106,52 @@ header{
 /* Inician las propiedades del section botones */
     .botones{
         display: flex;
-        width: 500px;
-        height: 50px;
+        width: 400px;
+        height: 60px;
+        transform: translateY(110px);
+        margin-left:50px ;
+        align-items: left;
     }
+
+    .boton1{
+        border: 2px;
+        width: 50%;
+        border-radius: 20px;
+        padding-inline: 30px;
+        font-size: 23px;
+        font-weight:bold;
+        color:#c5a2f6;
+        background-color:#282a36 ;
+        border: 2px solid;
+        transition: 1.5s;
+    }
+
+    .boton2{
+        color:#c5a2f6;
+        width: 50%;
+        background-color:#282a36 ;
+        border: 2px solid;
+        border-radius: 20px;
+        padding-inline: 30px;
+        font-size: 23px;
+        font-weight:bold;   
+        margin-left: 30px;
+        transition: 1.5s;
+    }
+
+    .boton1:hover{
+        color:#282a36;
+        background-color:#c5a2f6 ;
+    }
+    .boton2:hover{
+        color:#282a36;
+        background-color:#c5a2f6 ;
+    }
+
+
+
+
+
 
 
 
