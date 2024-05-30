@@ -74,7 +74,8 @@ header{
 /* Inician las propiedades del main */
 
     /* propiedades del section hi */
-    
+
+
     .hi{
         padding-top: 15px;
         font-family:sans-serif;
@@ -175,12 +176,28 @@ padding: 4px;
 display: flex;
 align-items: center;
 align-content:space-evenly;
+transition: 0.5s;}
+
+.contenedor-grande{
+    width: 700px;
+    height: 770px;
 }
 
 /* Finalizan propiedades de la linea y los icons */
 
 /* Inician hover de la linea y los icons */
-
-/* .bi:hover{
+.bi:hover{
 color: #ff79c6;
+}
+/* Finalizan hover de la linea y los icons */
+/* .projectos{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    font-size: 50px;
+    align-items: center;
+}
+.imagenes{
+    font-size: 10px;
 } */
+
