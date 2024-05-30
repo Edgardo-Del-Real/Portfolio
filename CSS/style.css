@@ -145,3 +145,41 @@ header{
         color:#282a36;
         background-color:#c5a2f6 ;
     }
+
+    /* Propiedades de la linea y los icons */
+.linea{
+    width: 2px;
+    height: 80px;
+    background-color: #6b78a3;
+    margin-bottom: 10px;
+    transform: translate(60px,160px);
+}
+
+.redes{
+display: flex;
+align-items:center;
+margin-top: 10px;
+flex-direction: column;
+transform: translate(40px,160px);
+width: 40px;
+height: 150px;
+}
+
+.bi{
+cursor: pointer;
+color:#6b78a3;
+margin: 5px;
+font-size: 35px; 
+padding: 4px;
+display: flex;
+align-items: center;
+align-content:space-evenly;
+}
+
+/* Finalizan propiedades de la linea y los icons */
+
+/* Inician hover de la linea y los icons */
+
+/* .bi:hover{
+color: #ff79c6;
+} */
