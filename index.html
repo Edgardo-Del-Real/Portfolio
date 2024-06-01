@@ -10,31 +10,38 @@
 <body>
     <!-- Inicio del header -->
     <header>
-        <div class="logo-nombre">
-            <img src="IMG/logosinfondo.png">
-            <h2><span class="letraE">E</span>DGARDO</h2>
-        </div>
-        <nav class="menu">
-                <a href="">HOME</a>
-                <a href="">PORTFOLIO</a>
-                <a href="">RESUME</a>
-        </nav>
+        <section class="header-container">
+            <div class="logo-nombre">
+                <img src="IMG/logosinfondo.png">
+                <h2><span class="letraE">E</span>DGARDO</h2>
+            </div>
+                <nav class="menu">
+                    <a href="">HOME</a>
+                    <a href="">PORTFOLIO</a>
+                    <a href="">RESUME</a>
+                </nav>
+        </section>
     </header>
     <!-- Fin del header -->
 
+
+
 <!-- Inicio del MAIN -->
     <main>
-            <section class="contenedor-grande">
+        <!-- Inicia el hero -->
+            <section class="contenedor-hero">
 
-            <section class="hi">
-                <h1>Hi, <br> I'm Edgardo,<br><span>Full Stack Developer</span></h1>
-                <h6>Front End Developer / C# / Java / React+</h6>
-            </section>
-            <section class="contenedor-botones">
-                <button class="boton1">My Work</button>
-                <button class="boton2">Hire Me</button>
-            </section>
-                <section>
+                <section class="hi">
+                    <h1>Hi, <br> I'm Edgardo,<br><span>Full Stack Developer</span></h1>
+                    <h6>Front End Developer / C# / Java / React+</h6>
+                </section>
+
+                <section class="contenedor-botones">
+                    <button class="boton1">My Work</button>
+                    <button class="boton2">Hire Me</button>
+                </section>
+
+                <section class="contenedor-linea-redes">
                     <div class="linea"></div>
                     <section class="redes">
                         <i class="bi bi-instagram"></i>
@@ -42,18 +49,47 @@
                         <i class="bi bi-github"></i>
                     </section>
                 </section>
+
+                <section class="imagen-mia">
+                    <img src="https://via.placeholder.com/300" alt="">
+                </section>
             </section>
+        <!-- Termina el hero -->
             
-            <!-- <section class="projectos">
-                <section class="imagenes">
-                    <img src="IMG/instagram.svg" alt="">
-                    <img src="IMG/instagram.svg" alt="">
-                    <img src="IMG/instagram.svg" alt="">
-                    <img src="IMG/instagram.svg" alt="">
-                    
-                </section> -->
+        <!-- Inicia el section de projectos -->
+            <section class="contenedor-projectos">
+                     
+                <!-- Revisar el tema de como manejar la imagen cuando le pasas el cursor -->
+
+                <h1> Mis projectos </h1>
+                <div>
+                    <img src="https://via.placeholder.com/300" alt="">
+                </div>
+                <div>
+                   <img src="https://via.placeholder.com/300" alt="">
+                </div>
+
+                <section class="contenedor-ver-mas">
+                    <a class="boton-ver-todos" href="">Ver todos</a>
+                </section>
 
             </section>   
+
+            <section class="contenedor-about-me">
+
+                <div class="imagen-">
+                    <img src="https://via.placeholder.com/400" alt="">
+                </div>About
+                <h1>Sobre mi</h1>
+                <p class="texto-SobreMi">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, eius quo. Nisi sint, fuga vel aut tempore rerum expedita unde accusantium sapiente dolorem similique? A assumenda nihil qui esse. Et!
+                </p>
+
+                <div class="contenedor-boton-cv">
+                    <a class="boton-CV" href="">Descargar CV</a>
+                </div>
+
+            </section>
     </main>
 <!-- Fin del MAIN -->
 
