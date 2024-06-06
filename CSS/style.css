@@ -122,15 +122,17 @@ header{
     padding: 20px;
     font-size: 25px;
     font-weight:bold;
-    color:#c5a2f6;
-    background-color:#282a36 ;
+    color: #282a36;
+    background-color: #c5a2f6;
     transition: 1.5s;
+    cursor: pointer;
 }
 
 .boton2{
-    color:#c5a2f6;
+    cursor: pointer;
+    color: #282a36;
     width: 50%;
-    background-color:#282a36 ;
+    background-color: #c5a2f6 ;
     border: 4px solid;
     border-radius: 25px;
     padding: 20px;
@@ -141,8 +143,8 @@ header{
 }
 
 .boton1:hover, .boton2:hover{
-    color:#282a36;
-    background-color:#c5a2f6 ;
+    color: #c5a2f6;
+    background-color: #282a36;
 }
 
 .contenedor-linea-redes{
@@ -190,11 +192,11 @@ header{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 125px;
-    border: solid;
+    /* border: solid; */
 }
 
 .contenedor-proyectos h2 {
-    font-size: 3em;
+    font-size: 40px;
     color: #c5c6c7;
     padding-bottom: 35px;
 }
@@ -219,9 +221,9 @@ header{
 }
 
 .boton-ver-todos{
-    color:  #c5a2f6;
+    color:   #282a36;
     width: 50%;
-    background-color:#282a36;
+    background-color:#c5a2f6;
     border: 4px solid;
     border-radius: 25px;
     font-size: 25px;
@@ -232,9 +234,9 @@ header{
 }
 
 .boton-ver-todos:hover{
-    color: #282a36;
+    color:  #c5a2f6;
     border: 4px solid;
-    background-color:#c5a2f6 ;
+    background-color: #282a36;
 }
  
 /* Finalizan las propiedades del contenedor proyectos */
@@ -244,15 +246,15 @@ header{
 .about-me{
     /* border: solid; */
     width: 100%;
-    margin-top: 40px;
-    
-}
+    margin-top: 240px;
+    font-family: Arial, Helvetica, sans-serif; 
+}  
 .contenedor-about-me{
-    border: solid;
+    /* border: solid; */
     display: flex;
     text-align: center;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     padding: 20px;
 }
@@ -260,36 +262,56 @@ header{
 .imagen-{
     height: 400px;
     width: 600px;
-    border: solid;
-    background-color: red;
+    border-radius: 30px 0px;
+    /* border: solid; */
+}
+
+.imagen- img{
+        height: 400px;
+        width: 600px;
+        border-radius: 30px 0;
+        transform: translate(-20px, -30px);
+}
+
+.borde{
+    border: #6372a3 solid;
+    border-width: 4px;
+    height: 400px;
+    width: 600px;
+    border-radius: 30px 0px;
 }
 
 .contenedor-texto-boton{
+    color: #f9faff; 
     display: flex;
     flex-wrap: wrap;
-    width: 50%; 
-    border: solid;
-    margin-right: 90px;
+    width: 40%; 
+    /* border: solid; */
     text-align: left;
-    font-size: 2em;
-}
-
-.texto-SobreMi{
-    border: solid;
-    height: 200px;
-    display: flex;
-    align-items: center;
-    font-size: 70%;
-}
-
-.contenedor-boton-cv{
     padding-bottom: 20px;
 }
 
+.contenedor-texto-boton h2{
+        font-size: 40px;
+        margin-bottom: 0px;
+}
+
+.texto-SobreMi{
+    /* border: solid; */
+    height: 250px;
+    display: flex;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.contenedor-boton-cv{
+   margin-bottom: 70px;
+}
+
 .boton-CV{
-    color:  #c5a2f6;
+    color:  #282a36;
     width: 50%;
-    background-color:#282a36;
+    background-color:  #c5a2f6;
     border: 4px solid;
     border-radius: 25px;
     font-size: 25px;
@@ -300,7 +322,69 @@ header{
 }
 
 .boton-CV:hover{
-    color: #282a36;
+    color: #c5a2f6;
     border: 4px solid;
-    background-color:#c5a2f6 ;
+    background-color:#282a36  ;
 }
+
+/* Finalizan las propiedades del contenedor about me */
+
+/* Inician propiedaes del contenedor que hago */
+
+.que-hago{
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: solid; */
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 200px;
+}
+
+.que-hago h2{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    color: #c5c6c7;
+    /* padding-bottom: 35px; */
+}
+
+.card-desarrollo-web, .card-desarrollo-software{
+    /* border: solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    height: 350px;
+    width: 450px;
+    background-color: #34394c;
+    margin: 15px;
+}
+
+.contenedor-card2, .contenedor-card1{
+    display: flex;
+    flex-direction: column;
+    /* border: solid; */
+    width: 90%;
+    height: 90%;
+    text-align: center;
+    align-items: center;
+    justify-content:center;
+    margin: 20px 0;
+}
+
+.contenedor-card2 img, .contenedor-card1 img{
+    height: 200px;
+    width: 200px;
+}
+
+.titulo-card{
+    font-size: 30px;
+    color: #c5c6c7;
+    font-weight: lighter;
+}
+
+/* finalizan las propiedades del que hago */
+
+
