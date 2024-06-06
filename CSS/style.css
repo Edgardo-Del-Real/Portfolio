@@ -238,3 +238,69 @@ header{
 }
  
 /* Finalizan las propiedades del contenedor proyectos */
+
+/* Inician las propiedades del contenedor about me */
+
+.about-me{
+    /* border: solid; */
+    width: 100%;
+    margin-top: 40px;
+    
+}
+.contenedor-about-me{
+    border: solid;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.imagen-{
+    height: 400px;
+    width: 600px;
+    border: solid;
+    background-color: red;
+}
+
+.contenedor-texto-boton{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%; 
+    border: solid;
+    margin-right: 90px;
+    text-align: left;
+    font-size: 2em;
+}
+
+.texto-SobreMi{
+    border: solid;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    font-size: 70%;
+}
+
+.contenedor-boton-cv{
+    padding-bottom: 20px;
+}
+
+.boton-CV{
+    color:  #c5a2f6;
+    width: 50%;
+    background-color:#282a36;
+    border: 4px solid;
+    border-radius: 25px;
+    font-size: 25px;
+    font-weight:bold;
+    padding: 20px;   
+    text-decoration: none;
+    transition: 1s;
+}
+
+.boton-CV:hover{
+    color: #282a36;
+    border: 4px solid;
+    background-color:#c5a2f6 ;
+}
