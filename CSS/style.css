@@ -534,3 +534,86 @@ header{
     background-color: #34394c;
 }
 
+/* Fin de las propiedades del formulario */
+
+/* Inician las propiedades del footer */
+
+.footer{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    /* border: solid; */
+    align-items: center;
+    justify-content: center;
+    /* border: solid; */
+    padding: 10px;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 95%;
+    align-items: center;
+    justify-content: space-between;
+    /* border: solid; */
+}
+
+.contenedor-redes{
+    display: flex;
+    align-items: center;
+    /* border: solid; */
+}
+
+.redes-footer{
+    display: flex;
+    color:#6b78a3;
+    font-size: 30px;
+    align-items: center;
+}
+
+.instagram, .linkedin, .github{
+    display: flex;
+    font-size: 30px;
+    cursor: pointer;
+    color:#6b78a3;
+    transition: 0.5s;
+}
+
+.redes-footer a{
+    text-decoration: none;
+}
+
+.logo-nombre-footer{
+    display: flex;
+}
+
+.logo-nombre-footer img{
+   height: 100px;
+   width: 100px;
+}
+
+.logo-nombre-footer h2{
+    color: #d0d3d6;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.arriva-footer{
+    display: flex;
+    border: solid;
+    width: 100%;
+    justify-content: end;
+    align-items: right;
+    /* margin-right: 50px; */
+}
+
+.arriva{
+    display: flex;
+    text-align: right;
+    align-items: end;
+    justify-content: right;
+    margin-right: 10px;
+}
+
+.arriva a{
+    color: #c5a2f6;
+    font-size: 10px;
+}
