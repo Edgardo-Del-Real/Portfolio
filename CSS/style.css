@@ -3,6 +3,10 @@ body{
     margin: 0;
 }
 
+.signos{
+    color: #c5a2f6;
+}
+
 /* Inician las propiedades del header */
 
 header{
@@ -103,6 +107,13 @@ header{
 
 .imagen-mia{
     margin-right: 15%;
+    transform: translateY(-80px);
+}
+
+.imagen-mia img{
+    border-radius: 20px 20px;
+    width: 350px;
+    height: 450px;
 }
 
 .contenedor-botones{
@@ -149,6 +160,7 @@ header{
 
 .contenedor-linea-redes{
     /* border: solid; */
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -415,6 +427,7 @@ header{
     text-align: center;
     font-size: 40px;
     margin-bottom: 100px;
+    margin-top: 250px;
     color:#c5c6c7;
 }
 
@@ -553,6 +566,7 @@ header{
     width: 95%;
     align-items: center;
     justify-content: space-between;
+    border-bottom: #6b78a3 solid;
     /* border: solid; */
 }
 
@@ -598,22 +612,36 @@ header{
 
 .arriva-footer{
     display: flex;
-    border: solid;
+    margin-top: 50px;
+    /* border: solid; */
     width: 100%;
     justify-content: end;
     align-items: right;
-    /* margin-right: 50px; */
 }
 
 .arriva{
+    margin-top: 10px;
     display: flex;
-    text-align: right;
     align-items: end;
     justify-content: right;
-    margin-right: 10px;
+    margin-right: 50px;
 }
 
-.arriva a{
-    color: #c5a2f6;
-    font-size: 10px;
+.arriva-footer a{
+    text-decoration: none;
+}
+
+.si{
+    color: #625783;
+    font-size: 60px;
+}
+
+
+.copy{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fbfbff;
+    display: flex;
+    padding: 0 50px;
+    text-align: center;
+    justify-content: space-between;
 }
