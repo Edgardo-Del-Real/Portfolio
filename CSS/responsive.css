@@ -1,0 +1,373 @@
+
+/* General adjustments for smaller screens */
+@media (max-width: 1920px) {
+  
+    /* Inician propiedes header */
+    .logo-nombre img{
+        height: 120px;
+        width: 120px;
+    }
+
+    .logo-nombre h2 {
+        font-size: 35px;
+    }
+  
+    .letraE{
+        font-size: 55px;
+    }
+  
+    .menu a {
+      font-size: 30px;
+      transition: 1s;
+    }
+
+    .menu a:hover{
+        color: var(--color-principal-bt);
+    }
+  
+    /* Finalizan propiedades header */
+
+    /* Inician propiedades hero */
+    .hi {
+      font-size: 50px;
+      width: 80%;
+    }
+  
+    .hi p {
+        font-size: 25px;
+    }
+  
+    .imagen-mia {
+        text-align: center;
+      transform: translateY(-80px);
+    }
+  
+    .imagen-mia img {
+        width: 500px;
+        height: 600px;
+    }
+
+    .contenedor-linea-redes {
+        margin-top: 70px;
+    }
+  
+    .linea{
+        width: 4px;
+    }
+
+    .bi{
+        font-size: 45px;
+    }
+    /* Finalizan propiedades hero */
+
+    /* Inician propieadades proyectos */
+  
+    .contenedor-imagenes div {
+        height: 350px;
+        width: 450px;
+    }
+  
+    .boton-ver-todos{
+        font-size: 35px;
+    }
+    /* Finalizan propiedades proyecto */
+
+    /* Inician propiedades about me */
+
+    .texto-SobreMi{
+        font-size: 1.4rem;
+    }
+
+    .boton-CV{
+        font-size: 30px;
+    }
+    /* Finalizan propiedades about me */
+
+    /* Inician propiedades que hago */  
+    .card-desarrollo-web, .card-desarrollo-software{
+    height: 400px;
+    width: 500px;
+    }
+    /* Finalizan propiedades que hago */
+
+    /* Inician propiedades footer */
+    
+    .redes-footer{
+        font-size: 40px;
+    }
+
+    .instagram, .linkedin, .github{
+        font-size: 40px;
+    }
+
+    .logo-nombre-footer img{
+        height: 120px;
+        width: 120px;
+    }
+
+    .logo-nombre-footer h2{
+        font-size: 35px;
+    }
+  }
+
+
+
+  @media (max-width: 1440px) {
+  
+    /* Inician propiedes header */
+    .logo-nombre img{
+        height: 90px;
+        width: 90px;
+    }
+
+    .logo-nombre h2 {
+        font-size: 30px;
+    }
+  
+    .letraE{
+        font-size: 45px;
+    }
+
+    .menu a{
+        font-size: 20px;
+    }
+  
+    /* Finalizan propiedades header */
+
+    /* Inician propiedades hero */
+    .hi {
+      font-size: 35px;
+      width: 80%;
+      height: 350px;
+    }
+  
+    .hi p {
+        font-size: 20px;
+    }
+  
+    .imagen-mia {
+        text-align: center;
+      transform: translateY(-90px);
+    }
+
+    .imagen-mia img{
+        border-radius: 20px 20px;
+        width: 350px;
+        height: 400px;
+    }
+  
+    .contenedor-linea-redes{
+        margin-top: 100px;
+    }
+
+    .linea{
+        width: 3px;
+    }
+
+    .bi{
+        font-size: 35px;
+    }
+    /* Finalizan propiedades hero */
+
+    /* Inician propieadades proyectos */
+  
+    .contenedor-imagenes div {
+        height: 300px;
+        width: 400px;
+    }
+  
+
+    /* Finalizan propiedades proyecto */
+
+    /* Inician propiedades about me */
+
+    .texto-SobreMi{
+        font-size: 1.3rem;
+    }
+
+    .boton-CV{
+        font-size: 25px;
+    }
+    /* Finalizan propiedades about me */
+
+    /* Inician propiedades que hago */  
+    .card-desarrollo-web, .card-desarrollo-software{
+    height: 400px;
+    width: 500px;
+    }
+    /* Finalizan propiedades que hago */
+
+    /* Inician propiedades footer */
+    
+    .redes-footer{
+        font-size: 25px;
+    }
+
+    .instagram, .linkedin, .github{
+        font-size: 25px;
+    }
+
+    .logo-nombre-footer img{
+        height: 80px;
+        width: 80px;
+    }
+
+    .logo-nombre-footer h2{
+        font-size: 25px;
+    }
+  }
+
+
+
+  @media (max-width: 1280px) {
+  
+    /* Inician propiedes header */
+    .logo-nombre img{
+        height: 80px;
+        width: 80px;
+    }
+
+    .logo-nombre h2 {
+        font-size: 20px;
+    }
+  
+    .letraE{
+        font-size: 35px;
+    }
+
+    .menu a{
+        font-size: 20px;
+    }
+  
+    /* Finalizan propiedades header */
+
+    /* Inician propiedades hero */
+    .hi {
+      font-size: 35px;
+      width: 80%;
+      height: 350px;
+    }
+  
+    .hi p {
+        font-size: 20px;
+    }
+  
+    .imagen-mia {
+        text-align: center;
+      transform: translateY(-55px);
+    }
+
+    .imagen-mia img{
+        border-radius: 20px 20px;
+        width: 300px;
+        height: 350px;
+    }
+  
+    .contenedor-linea-redes{
+        margin-top: 100px;
+    }
+
+    .linea{
+        width: 2px;
+    }
+
+    .bi{
+        font-size: 30px;
+    }
+
+    .boton1, .boton2{
+        font-size: 20px;
+    }
+    /* Finalizan propiedades hero */
+
+    /* Inician propieadades proyectos */
+  
+    .contenedor-imagenes div {
+        height: 300px;
+        width: 400px;
+    }
+  
+    .boton-ver-todos{
+        font-size: 20px;
+    }
+    /* Finalizan propiedades proyecto */
+
+    /* Inician propiedades about me */
+
+    .texto-SobreMi{
+        font-size: 1.2rem;
+    }
+
+    .boton-CV{
+        font-size: 20px;
+    }
+    /* Finalizan propiedades about me */
+
+    /* Inician propiedades que hago */  
+    .card-desarrollo-web, .card-desarrollo-software{
+    height: 400px;
+    width: 500px;
+    }
+    /* Finalizan propiedades que hago */
+
+    /* Propiedades contacto */
+
+    .contenedor-info{
+        align-items: start;
+    }
+
+    .formulario h3{
+        font-size: 19px;
+    }
+
+    .info{
+    width: 20%;
+    }
+
+    .info-detallada{
+        width: 80%;
+    }
+
+    .contenedor-inputs input{
+        font-size: 20px;
+    }
+
+    .texto, .email, .parrafo{
+        border: 3px #6473a3 solid;
+    }
+
+    .parrafo::placeholder{
+        font-size: 20px;
+    }
+
+    .inputs textarea{
+        font-size: 20px;
+    }
+
+    .enviar{
+            font-size: 20px;
+    }
+    /* Inician propiedades footer */
+    
+    .redes-footer{
+        font-size: 25px;
+    }
+
+    .instagram, .linkedin, .github{
+        font-size: 25px;
+    }
+
+    .logo-nombre-footer img{
+        height: 80px;
+        width: 80px;
+    }
+
+    .logo-nombre-footer h2{
+        font-size: 25px;
+    }
+  }
+
+
+
+
+
