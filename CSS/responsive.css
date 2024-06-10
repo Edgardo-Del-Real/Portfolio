@@ -35,16 +35,22 @@
   
     .hi p {
         font-size: 25px;
+        transform: translateY(-110px);
+        padding-bottom: 10px;
     }
   
     .imagen-mia {
         text-align: center;
-      transform: translateY(-80px);
+      transform: translateY(30px);
     }
   
     .imagen-mia img {
-        width: 500px;
-        height: 600px;
+        width: 400px;
+        height: 400px;
+    }
+
+    .contenedor-botones{
+        padding-top: 25px;
     }
 
     .contenedor-linea-redes {
@@ -116,8 +122,8 @@
   
     /* Inician propiedes header */
     .logo-nombre img{
-        height: 90px;
-        width: 90px;
+        height: 85px;
+        width: 85px;
     }
 
     .logo-nombre h2 {
@@ -143,17 +149,18 @@
   
     .hi p {
         font-size: 20px;
+        transform: translateY(-60px);
     }
   
     .imagen-mia {
+        margin-right: 20%;
         text-align: center;
-      transform: translateY(-90px);
     }
 
     .imagen-mia img{
         border-radius: 20px 20px;
         width: 350px;
-        height: 400px;
+        height: 350px;
     }
   
     .contenedor-linea-redes{
@@ -254,13 +261,12 @@
   
     .imagen-mia {
         text-align: center;
-      transform: translateY(-55px);
     }
 
     .imagen-mia img{
         border-radius: 20px 20px;
         width: 300px;
-        height: 350px;
+        height: 300px;
     }
   
     .contenedor-linea-redes{
@@ -281,10 +287,13 @@
     /* Finalizan propiedades hero */
 
     /* Inician propieadades proyectos */
-  
+    .contenedor-proyectos h2{
+        padding-top: 100px;
+    }
+
     .contenedor-imagenes div {
         height: 300px;
-        width: 400px;
+        width: 300px;
     }
   
     .boton-ver-todos{
@@ -293,7 +302,6 @@
     /* Finalizan propiedades proyecto */
 
     /* Inician propiedades about me */
-
     .texto-SobreMi{
         font-size: 1.2rem;
     }
@@ -380,10 +388,6 @@
         width: 100%;
     }
 
-    .header-container{
-        width: 85%;
-    }
-
     .logo-nombre img{
         height: 60px;
         width: 60px;
@@ -406,7 +410,6 @@
 
     /* Inician propiedades hero */
     .contenedor-hero{
-        width: 85%;
         padding-left: 0px;
         height: 160vh;
     }
@@ -430,15 +433,14 @@
     }
   
     .imagen-mia {
-        width: 30%;;
         text-align: center;
-        margin-right: 0%;
+        margin-right: 15%;
       transform: translateY(-30px);
     }
 
     .imagen-mia img{
         border-radius: 20px 20px;
-        width: 200px;
+        width: 250px;
         height: 250px;
     }
   
@@ -468,10 +470,6 @@
     /* Finalizan propiedades hero */
 
     /* Inician propieadades proyectos */
-    .contenedor-proyectos{
-        width: 85%;
-    }
-
     .contenedor-imagenes div {
         height: 200px;
         width: 200px;
@@ -483,12 +481,10 @@
     /* Finalizan propiedades proyecto */
 
     /* Inician propiedades about me */
-    .about-me{
-        width: 85%;
-    }
+
 
     .imagen-, .borde, .imagen- img{
-        display: none;
+       display: none;
     }
 
     .contenedor-texto-boton{
@@ -514,9 +510,6 @@
     /* Finalizan propiedades about me */
 
     /* Inician propiedades que hago */  
-    .que-hago{
-        width: 85%;
-    }
 
     .card-desarrollo-web, .card-desarrollo-software{
     height: 350px;
@@ -536,13 +529,6 @@
 
     /* Propiedades contacto */
 
-    .contenedor-formulario{
-        width: 85%;
-    }
-
-    .formulario{
-        width: 80%;
-    }
 
     .formulario h3{
         font-size: 15px;
@@ -599,11 +585,8 @@
     }
     /* Inician propiedades footer */
     .footer{
-        width: 80%;
-    }
-
-    .contenedor-footer{
-        width: 90%;
+        width: 100%;
+        padding: 0px;
     }
     
     .redes-footer{
@@ -629,7 +612,7 @@
 
     .arriva-footer{
         margin-left: 80px;
-        width: 70%;
+        width: 90%;
         align-items: end;
         justify-content: end;
     }
@@ -647,9 +630,7 @@
 
     .copy{
         align-items: center;
-        width: 63%;
         font-size: 10px;
-        margin-left: 70px;
     }
 
     .copy p{
@@ -663,14 +644,6 @@
   
     /* Inician propiedes header */
 
-    .main{
-        width: 100%;
-    }
-
-    .header-container{
-        width: 85%;
-    }
-
     .logo-nombre img{
         height: 60px;
         width: 60px;
@@ -693,13 +666,11 @@
 
     /* Inician propiedades hero */
     .contenedor-hero{
-        width: 85%;
         padding-left: 0px;
         height: 160vh;
     }
 
     .contendor-foto-texto{
-        width: 60%;
         padding: 0px;
         justify-content: space-around;
     }
@@ -743,21 +714,18 @@
     }
 
     .contenedor-botones{
-        height: 60px;
-        padding-left: 20px;
+        /* border: solid; */
+        /* padding-left: 20px; */
+        justify-content: space-evenly;
     }
 
     .boton1, .boton2{
         font-size: 10px;
         padding: 15px;
-        width: 40%;
     }
     /* Finalizan propiedades hero */
 
     /* Inician propieadades proyectos */
-    .contenedor-proyectos{
-        width: 85%;
-    }
 
     .contenedor-imagenes div {
         height: 200px;
@@ -770,9 +738,6 @@
     /* Finalizan propiedades proyecto */
 
     /* Inician propiedades about me */
-    .about-me{
-        width: 85%;
-    }
 
     .imagen-, .borde, .imagen- img{
         display: none;
@@ -801,9 +766,6 @@
     /* Finalizan propiedades about me */
 
     /* Inician propiedades que hago */  
-    .que-hago{
-        width: 85%;
-    }
 
     .card-desarrollo-web, .card-desarrollo-software{
     height: 350px;
@@ -811,7 +773,6 @@
     }
 
     .que-hago h2{
-        width: 85%;
         font-size: 30px;
     }
 
@@ -823,16 +784,8 @@
 
     /* Propiedades contacto */
 
-    .contenedor-formulario{
-        width: 85%;
-    }
-
-    .formulario{
-        width: 80%;
-    }
-
     .formulario h3{
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .info{
@@ -840,7 +793,6 @@
     }
 
     .info-detallada{
-        height: 200px;
         padding: 0px;
         align-items: end;
         margin-top: 10px;
@@ -885,13 +837,6 @@
         padding: 15px;
     }
     /* Inician propiedades footer */
-    .footer{
-        width: 80%;
-    }
-
-    .contenedor-footer{
-        width: 90%;
-    }
     
     .redes-footer{
         font-size: 20px;
@@ -907,29 +852,28 @@
     }
 
     .logo-nombre-footer h2{
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .footer a{
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .arriva-footer{
-        margin-left: 80px;
-        width: 70%;
+        margin-left: 75px;
         align-items: end;
         justify-content: end;
     }
 
     .arriva{
         margin-right: 0px;
+        margin-right: 10px;
     }
 
     .si{
         align-items: center;
         justify-content: center;
         font-size: 30px;
-        margin-right: 15px;
     }
 
     .copy{
@@ -945,6 +889,279 @@
     }
   }
 
+
+  @media (max-width: 480px) {
+  
+    /* Inician propiedes header */
+    .header{
+        height: 100px;
+    }
+
+    .header-container{
+        margin-right: 30px;
+    }
+
+    .logo-nombre img{
+        height: 60px;
+        width: 60px;
+        justify-content: space-evenly;
+    }
+
+    .logo-nombre h2 {
+        font-size: 15px;
+    }
+  
+    .letraE{
+        font-size: 25px;
+    }
+
+    .menu a{
+        display: none;
+    }
+
+    .Li{
+        color: var(--color-principal-bt);
+        font-size: 40px;
+    }
+  
+    /* Finalizan propiedades header */
+
+    /* Inician propiedades hero */
+    .contenedor-hero{
+        padding-left: 0px;
+        height: 160vh;
+    }
+
+    .contendor-foto-texto{
+        padding: 0px;
+        justify-content: space-around;
+    }
+
+    .hi {
+      font-size: 25px;
+      width: 100%;
+      height: 250px;
+    }
+  
+    .hi p {
+        font-size: 15px;
+        transform: translateY(-40px);
+    }
+  
+    .imagen-mia, .imagen-mia img {
+     display: none;
+    }  
+
+    .contenedor-linea-redes{
+        flex-direction: row;
+        align-items: start;
+        width: 100%;
+        height: 30px;
+        transform: translate(0px,-150px);
+        margin-top: 0px;
+        /* display: none; */
+    }
+
+    .redes{
+        flex-direction: row;
+    }
+
+    .linea{
+        display: none;
+    }
+
+    .bi{
+        justify-content: center;
+        padding: 0px;
+        padding-inline: 15px;
+        font-size: 30px;
+    }
+
+    .contenedor-botones{
+        justify-content: space-evenly;
+    }
+
+    .boton1, .boton2{
+        transform: translateY(-90px);
+        font-size: 20px;
+        padding: 15px;
+    }
+    /* Finalizan propiedades hero */
+
+    /* Inician propieadades proyectos */
+    .contenedor-proyectos h2{
+        font-size: 30px;
+    }
+
+    .contenedor-imagenes div {
+        height: 200px;
+        width: 200px;
+    }
+  
+    .boton-ver-todos{
+        font-size: 15px;
+    }
+    /* Finalizan propiedades proyecto */
+
+    /* Inician propiedades about me */
+
+    .imagen-, .borde, .imagen- img{
+        display: none;
+    }
+
+    .contenedor-texto-boton{
+        width: 60%;
+        padding-bottom: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contenedor-texto-boton h2{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .texto-SobreMi{
+        justify-content: center;
+        align-items: center;
+        font-size: 13px;
+    }
+
+    .boton-CV{
+        font-size: 15px;
+        padding: 15px;
+    }
+    /* Finalizan propiedades about me */
+
+    /* Inician propiedades que hago */  
+
+    .card-desarrollo-web, .card-desarrollo-software{
+    height: 350px;
+    width: 300px;
+    }
+
+    .que-hago h2{
+        font-size: 30px;
+    }
+
+    .contenedor-card2 img, .contenedor-card1 img{
+        width: 150px;
+        height: 150px;
+    }
+    /* Finalizan propiedades que hago */
+
+    /* Propiedades contacto */
+
+    .contenedor-info{
+       display: none;
+    }
+
+    .formulario h3{
+        font-size: 12px;
+    }
+
+    .contenedor-inputs{
+        width: 100%;
+    }
+
+    .contenedor-inputs input{
+        font-size: 15px;
+        padding: 20px;
+    }
+
+    .texto, .email, .parrafo{
+        border: 3px #6473a3 solid;
+    }
+
+    .parrafo::placeholder{
+        font-size: 15px;
+    }
+
+    .inputs textarea{
+        font-size: 15px;
+        padding: 20px;
+    }
+
+    .enviar{
+        font-size: 15px;
+    }
+
+    .contenedor-inputs{
+        width: 100%;
+    }
+
+    .inputs{
+        width: 100%;
+    }
+
+    .enviar{
+        font-size: 15px;
+        padding: 15px;
+    }
+    /* Inician propiedades footer */
+    .bi2{
+        display: flex;
+        font-size: 20px;
+        padding: 10px;
+        cursor: pointer;
+        color:#6b78a3;
+        transition: 0.5s;
+    }
+    
+    .bi2:hover{
+        color: #ff79c6;
+    }
+    
+    .bi2-instagram:hover{
+        color: #ff3140;
+    }
+    
+    .bi2-linkedin:hover{
+        color: #0b65c3;
+    }
+    
+    .bi2-github:hover{
+        color: #e6edf3;
+    }
+
+    .logo-nombre-footer img{
+        height: 50px;
+        width: 50px;
+    }
+
+    .logo-nombre-footer h2{
+        font-size: 15px;
+    }
+
+    .arriva-footer{
+        width: 90%;
+        margin-left: 40px;
+        align-items: end;
+        justify-content: end;
+    }
+
+    .arriva{
+        margin-right: 0px;
+    }
+
+    .si{
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+    }
+
+    .copy{
+        align-items: center;
+        width: 100%;
+        font-size: 10px;
+        margin-left: 0px;
+        padding: 0px 0px;
+    }
+
+    .copy p{
+        justify-content: space-between;
+    }
+  } 
 
 
 
