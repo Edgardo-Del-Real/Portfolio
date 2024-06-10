@@ -348,6 +348,9 @@
             font-size: 20px;
     }
     /* Inician propiedades footer */
+    .footer{
+        width: 100%;
+    }
     
     .redes-footer{
         font-size: 25px;
@@ -364,6 +367,581 @@
 
     .logo-nombre-footer h2{
         font-size: 25px;
+    }
+  }
+
+
+
+  @media (max-width: 1024px) {
+  
+    /* Inician propiedes header */
+
+    .main{
+        width: 100%;
+    }
+
+    .header-container{
+        width: 85%;
+    }
+
+    .logo-nombre img{
+        height: 60px;
+        width: 60px;
+        justify-content: space-evenly;
+    }
+
+    .logo-nombre h2 {
+        font-size: 15px;
+    }
+  
+    .letraE{
+        font-size: 25px;
+    }
+
+    .menu a{
+        font-size: 15px;
+    }
+  
+    /* Finalizan propiedades header */
+
+    /* Inician propiedades hero */
+    .contenedor-hero{
+        width: 85%;
+        padding-left: 0px;
+        height: 160vh;
+    }
+
+    .contendor-foto-texto{
+        width: 60%;
+        padding: 0px;
+        justify-content: space-around;
+    }
+
+    .hi {
+      font-size: 25px;
+      width: 60%;
+      height: 250px;
+      padding-left: 20px;
+    }
+  
+    .hi p {
+        font-size: 15px;
+        transform: translateY(-40px);
+    }
+  
+    .imagen-mia {
+        width: 30%;;
+        text-align: center;
+        margin-right: 0%;
+      transform: translateY(-30px);
+    }
+
+    .imagen-mia img{
+        border-radius: 20px 20px;
+        width: 200px;
+        height: 250px;
+    }
+  
+
+    .contenedor-linea-redes{
+        margin-top: 100px;
+    }
+
+    .linea{
+        width: 2px;
+    }
+
+    .bi{
+        font-size: 20px;
+    }
+
+    .contenedor-botones{
+        height: 60px;
+        padding-left: 20px;
+    }
+
+    .boton1, .boton2{
+        font-size: 10px;
+        padding: 15px;
+        width: 40%;
+    }
+    /* Finalizan propiedades hero */
+
+    /* Inician propieadades proyectos */
+    .contenedor-proyectos{
+        width: 85%;
+    }
+
+    .contenedor-imagenes div {
+        height: 200px;
+        width: 200px;
+    }
+  
+    .boton-ver-todos{
+        font-size: 10px;
+    }
+    /* Finalizan propiedades proyecto */
+
+    /* Inician propiedades about me */
+    .about-me{
+        width: 85%;
+    }
+
+    .imagen-, .borde, .imagen- img{
+        display: none;
+    }
+
+    .contenedor-texto-boton{
+        width: 60%;
+        padding-bottom: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contenedor-texto-boton h2{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .texto-SobreMi{
+        font-size: 1.1rem;
+    }
+
+    .boton-CV{
+        font-size: 15px;
+        padding: 15px;
+    }
+    /* Finalizan propiedades about me */
+
+    /* Inician propiedades que hago */  
+    .que-hago{
+        width: 85%;
+    }
+
+    .card-desarrollo-web, .card-desarrollo-software{
+    height: 350px;
+    width: 300px;
+    }
+
+    .que-hago h2{
+        width: 85%;
+        font-size: 30px;
+    }
+
+    .contenedor-card2 img, .contenedor-card1 img{
+        width: 150px;
+        height: 150px;
+    }
+    /* Finalizan propiedades que hago */
+
+    /* Propiedades contacto */
+
+    .contenedor-formulario{
+        width: 85%;
+    }
+
+    .formulario{
+        width: 80%;
+    }
+
+    .formulario h3{
+        font-size: 15px;
+    }
+
+    .info{
+        width: 15%;
+    }
+
+    .info-detallada{
+        height: 200px;
+        padding: 0px;
+        align-items: end;
+        margin-top: 10px;
+    }
+
+    .contenedor-inputs{
+        margin-bottom: 20px;
+    }
+
+    .contenedor-inputs input{
+        font-size: 15px;
+        padding: 20px;
+    }
+
+    .texto, .email, .parrafo{
+        border: 3px #6473a3 solid;
+    }
+
+    .parrafo::placeholder{
+        font-size: 15px;
+    }
+
+    .inputs textarea{
+        font-size: 15px;
+        padding: 20px;
+    }
+
+    .enviar{
+        font-size: 15px;
+    }
+
+    .contenedor-inputs{
+        width: 50%;
+    }
+
+    .inputs{
+        width: 90%;
+    }
+
+    .enviar{
+        font-size: 15px;
+        padding: 15px;
+    }
+    /* Inician propiedades footer */
+    .footer{
+        width: 80%;
+    }
+
+    .contenedor-footer{
+        width: 90%;
+    }
+    
+    .redes-footer{
+        font-size: 20px;
+    }
+
+    .instagram, .linkedin, .github{
+        font-size: 20px;
+    }
+
+    .logo-nombre-footer img{
+        height: 60px;
+        width: 60px;
+    }
+
+    .logo-nombre-footer h2{
+        font-size: 20px;
+    }
+
+    .footer a{
+        font-size: 12px;
+    }
+
+    .arriva-footer{
+        margin-left: 80px;
+        width: 70%;
+        align-items: end;
+        justify-content: end;
+    }
+
+    .arriva{
+        margin-right: 0px;
+    }
+
+    .si{
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+        margin-right: 15px;
+    }
+
+    .copy{
+        align-items: center;
+        width: 63%;
+        font-size: 10px;
+        margin-left: 70px;
+    }
+
+    .copy p{
+        text-align: center;
+        justify-content: space-between;
+    }
+  }
+
+
+  @media (max-width: 768px) {
+  
+    /* Inician propiedes header */
+
+    .main{
+        width: 100%;
+    }
+
+    .header-container{
+        width: 85%;
+    }
+
+    .logo-nombre img{
+        height: 60px;
+        width: 60px;
+        justify-content: space-evenly;
+    }
+
+    .logo-nombre h2 {
+        font-size: 15px;
+    }
+  
+    .letraE{
+        font-size: 25px;
+    }
+
+    .menu a{
+        font-size: 15px;
+    }
+  
+    /* Finalizan propiedades header */
+
+    /* Inician propiedades hero */
+    .contenedor-hero{
+        width: 85%;
+        padding-left: 0px;
+        height: 160vh;
+    }
+
+    .contendor-foto-texto{
+        width: 60%;
+        padding: 0px;
+        justify-content: space-around;
+    }
+
+    .hi {
+      font-size: 25px;
+      width: 60%;
+      height: 250px;
+      padding-left: 20px;
+    }
+  
+    .hi p {
+        font-size: 15px;
+        transform: translateY(-40px);
+    }
+  
+    .imagen-mia {
+        width: 30%;;
+        text-align: center;
+        margin-right: 0%;
+      transform: translateY(-30px);
+    }
+
+    .imagen-mia img{
+        border-radius: 20px 20px;
+        width: 200px;
+        height: 250px;
+    }
+  
+
+    .contenedor-linea-redes{
+        margin-top: 100px;
+    }
+
+    .linea{
+        width: 2px;
+    }
+
+    .bi{
+        font-size: 20px;
+    }
+
+    .contenedor-botones{
+        height: 60px;
+        padding-left: 20px;
+    }
+
+    .boton1, .boton2{
+        font-size: 10px;
+        padding: 15px;
+        width: 40%;
+    }
+    /* Finalizan propiedades hero */
+
+    /* Inician propieadades proyectos */
+    .contenedor-proyectos{
+        width: 85%;
+    }
+
+    .contenedor-imagenes div {
+        height: 200px;
+        width: 200px;
+    }
+  
+    .boton-ver-todos{
+        font-size: 10px;
+    }
+    /* Finalizan propiedades proyecto */
+
+    /* Inician propiedades about me */
+    .about-me{
+        width: 85%;
+    }
+
+    .imagen-, .borde, .imagen- img{
+        display: none;
+    }
+
+    .contenedor-texto-boton{
+        width: 60%;
+        padding-bottom: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contenedor-texto-boton h2{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .texto-SobreMi{
+        font-size: 1.1rem;
+    }
+
+    .boton-CV{
+        font-size: 15px;
+        padding: 15px;
+    }
+    /* Finalizan propiedades about me */
+
+    /* Inician propiedades que hago */  
+    .que-hago{
+        width: 85%;
+    }
+
+    .card-desarrollo-web, .card-desarrollo-software{
+    height: 350px;
+    width: 300px;
+    }
+
+    .que-hago h2{
+        width: 85%;
+        font-size: 30px;
+    }
+
+    .contenedor-card2 img, .contenedor-card1 img{
+        width: 150px;
+        height: 150px;
+    }
+    /* Finalizan propiedades que hago */
+
+    /* Propiedades contacto */
+
+    .contenedor-formulario{
+        width: 85%;
+    }
+
+    .formulario{
+        width: 80%;
+    }
+
+    .formulario h3{
+        font-size: 15px;
+    }
+
+    .info{
+        width: 15%;
+    }
+
+    .info-detallada{
+        height: 200px;
+        padding: 0px;
+        align-items: end;
+        margin-top: 10px;
+    }
+
+    .contenedor-inputs{
+        margin-bottom: 20px;
+    }
+
+    .contenedor-inputs input{
+        font-size: 15px;
+        padding: 20px;
+    }
+
+    .texto, .email, .parrafo{
+        border: 3px #6473a3 solid;
+    }
+
+    .parrafo::placeholder{
+        font-size: 15px;
+    }
+
+    .inputs textarea{
+        font-size: 15px;
+        padding: 20px;
+    }
+
+    .enviar{
+        font-size: 15px;
+    }
+
+    .contenedor-inputs{
+        width: 50%;
+    }
+
+    .inputs{
+        width: 90%;
+    }
+
+    .enviar{
+        font-size: 15px;
+        padding: 15px;
+    }
+    /* Inician propiedades footer */
+    .footer{
+        width: 80%;
+    }
+
+    .contenedor-footer{
+        width: 90%;
+    }
+    
+    .redes-footer{
+        font-size: 20px;
+    }
+
+    .instagram, .linkedin, .github{
+        font-size: 20px;
+    }
+
+    .logo-nombre-footer img{
+        height: 60px;
+        width: 60px;
+    }
+
+    .logo-nombre-footer h2{
+        font-size: 20px;
+    }
+
+    .footer a{
+        font-size: 12px;
+    }
+
+    .arriva-footer{
+        margin-left: 80px;
+        width: 70%;
+        align-items: end;
+        justify-content: end;
+    }
+
+    .arriva{
+        margin-right: 0px;
+    }
+
+    .si{
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+        margin-right: 15px;
+    }
+
+    .copy{
+        align-items: center;
+        width: 63%;
+        font-size: 10px;
+        margin-left: 70px;
+    }
+
+    .copy p{
+        text-align: center;
+        justify-content: space-between;
     }
   }
 
