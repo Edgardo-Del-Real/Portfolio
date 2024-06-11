@@ -1,5 +1,4 @@
-<link rel="stylesheet" href="CSS/readme.css">
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
 <h1> Portfolio personal</h1>
 <h3> Este portfolio forma parte de un trabajo practico para el curso de Programador Full Stack que me encuentro cursando.</h3>
 <p>La intencion de este portfolio es replicar lo mas fiel posible un diseño que he seleccionado en Behance. Aplicando la mayor cantidad de conocimientos posibles.</p>
