@@ -610,7 +610,22 @@ header{
     border-bottom: #6b78a3 solid;
     /* border: solid; */
 }
+.redes-footer{
+    padding: 20px;
+    margin-right: 10px;
+}
 
+.menu-footer a{
+    padding: 15px;
+    text-decoration: none;
+    color: var(--color-titulos);
+    font-size: 20px;
+    transition: 1s;
+}
+
+.menu-footer a:hover{
+    color: var(--color-principal-bt);
+}
 .contenedor-redes{
     display: flex;
     align-items: center;
@@ -678,7 +693,7 @@ header{
     font-size: 60px;
 }
 
- .bi2{
+.bi2{
         display: flex;
         font-size: 35px;
         padding: 10px;
